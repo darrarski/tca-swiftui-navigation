@@ -14,9 +14,21 @@ let package = Package(
 			]
 		),
 	],
+	dependencies: [
+		.package(
+			url: "https://github.com/pointfreeco/swift-composable-architecture.git",
+			from: "0.18.0"
+		),
+	],
 	targets: [
 		.target(
-			name: "ComposableNavigation"
+			name: "ComposableNavigation",
+			dependencies: [
+				.product(
+					name: "ComposableArchitecture",
+					package: "swift-composable-architecture"
+				),
+			]
 		),
 		.testTarget(
 			name: "ComposableNavigationTests",
