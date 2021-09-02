@@ -1,3 +1,7 @@
+# ⚠️ Archived
+
+**Check out [the new repository](https://github.com/darrarski/swift-composable-presentation) of the project.**
+
 # ComposableNavigation
 
 ![Swift v5.4](https://img.shields.io/badge/swift-v5.4-orange.svg)
